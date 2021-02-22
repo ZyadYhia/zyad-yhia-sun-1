@@ -38,7 +38,7 @@
         <div class="d-flex justify-content-center bg-success">
 
 
-            <!-- for loop insert a new card for each developer automatically -->
+            <!-- for loop insert a new card for each developer automatically includs his info -->
 
             <?php for ($i = 0; $i < count($developer); $i++) { ?>
                 <div class="card shadow" style="width: 18rem; margin:45px 45px;">
